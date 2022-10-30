@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(75, 75, 97);
+}
+
+/* Navigation */
+.nav ul{
+list-style-type: none ;
+overflow: hidden;
+background-color: darkcyan;
+}
+
+.nav li{
+    float: left;
+}
+
+.nav li a{
+    color: azure;
+    text-decoration:none ;
+    display:block;
+    padding: 15px;
+}
+
+.nav li a:hover{
+    background-color:rgb(44, 63, 63) ;
+}
+
+.active{
+    background-color:rgb(28, 43, 43) ;
+}
+
+.nav{
+    position: sticky;
+    top:0;
+}
+
+
+
+
+
+/* lol */
+h1{
+    text-align: center;
+    color:white;
+}
+
+img{
+  width: 20%;
+  display: flex;
+  margin: auto;
+}
+
+
+
+.lol{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; 
+
+
+}
+
+@media screen and (min-width: 1080px){
+    .lol{
+        width: 50%;
+    }
+
+    .table{
+        width: 50%;
+    }
+    
+
+}
+
+
+
