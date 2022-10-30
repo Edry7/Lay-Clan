@@ -21,11 +21,11 @@ background-color: darkcyan;
 }
 
 .nav li a:hover{
-    background-color:rgb(44, 63, 63) ;
+    background-color:rgb(44, 63, 63);
 }
 
 .active{
-    background-color:rgb(28, 43, 43) ;
+    background-color:rgb(28, 43, 43);
 }
 
 .nav{
