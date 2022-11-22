@@ -1,75 +1,142 @@
-body{
-    background-color: withesmocke;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
-/* Navigation */
-.nav ul{
-list-style-type: none ;
-overflow: hidden;
-background-color: darkcyan;
+/* Barre de navigation */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
 }
 
-.nav li{
-    float: left;
+nav h1 {
+    font-size: 20px;
 }
 
-.nav li a{
-    color: azure;
-    text-decoration:none ;
-    display:block;
-    padding: 15px;
+nav .onglet {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.nav li a:hover{
-    background-color:rgb(44, 63, 63);
+nav .onglet p {
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
-.active{
-    background-color:rgb(28, 43, 43);
-}
-
-.nav{
-  position: sticky;
-  top:0;
-}
-
-
-
-
-
-/* lol */
-h1{
-    text-align: center;
-    color:white;
-}
-
-img{
-  width: 20%;
-  display: flex;
-  margin: auto;
+nav .onglet input{
+   margin: 8px 20px;
+   padding: 15px;
+   border-radius: 30px;
+   border: none;
+   outline: none;
+   background-color: #f2f2f2;
 }
 
 
 
-.lol{
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%; 
 
 
+/* Fin de la barre de navigation */
+
+/* Header */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-@media screen and (min-width: 1080px){
-    .lol{
-        width: 50%;
-    }
+header h1{
+font-size: 50px;
+text-align: center;
+}
 
-    .table{
-        width: 50%;
-    }
+header button{
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Fin du Header */
+
+/* Section principale */
+.main{
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Ma carte */
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+}
+.card.card{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.cards .card img{
+    width: 350px;
+}
+
+.cards .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     
-
+   
 }
 
+.card-body{
+    font-size: 20px;
+    margin-top: -10px;
+    color: rgb(82, 82, 82);
+    
+}
 
+.card .title{
+    font-size: 30px;
+}
+
+.card .price{
+    font-size: x-large;
+    margin-top: -18px;
+}
+
+.card-header{
+    text-decoration:none;
+}
+
+/* Fin de ma carte */
+/* Fin de section principale */
+
+.title-lol{
+    display:inline-block;
+    flex-wrap: wrap;
+    box-align:right;
+    justify-content: right;
+    color: rgb(82, 82, 82);
+    
+    
+    
+}
 
