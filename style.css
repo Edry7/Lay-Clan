@@ -135,8 +135,12 @@ header button{
     box-align:right;
     justify-content: right;
     color: rgb(82, 82, 82);
-    
-    
-    
+}
+
+.title-texte {
+	display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
 }
 
